@@ -89,5 +89,7 @@ Cascade R-CNN|PD-B-ResNet50|42.1|61.0|45.7|24.3|45.3 |55.5|[model]() [log]()
 
 ## Other visual tasks
 
-We argure that our ParaDise is suitable for other visual tasks, like **segmentation**, **keypoints detection**, etc. More expriments on other tasks are ongoing. 
+We argure that our ParaDise is suitable for other visual tasks, like **segmentation**, **keypoints detection**, etc. 
+
+More expriments on other tasks are ongoing. 
 
