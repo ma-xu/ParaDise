@@ -1,17 +1,18 @@
-# Cascaded Context Dependency: An Extremely Lightweight Module for Deep Convolutional Neural Networks
-Xu Ma, Zhinan Qiao, Jingda Guo, Sihai Tang, Qi Chen, Qing Yang, Song Fu :envelope:<br>
-(Accepted by ICIP 2020)
+# ParaDise: Parameter Disentanglement for Neural Networks
+(Underview by NeurIPS 2020)
 <br><br>
 
+## Requirements
+PyTorch>=1.3.0
+NVIDIA/Apex
+NVIDIADALI
 
 ## Implementation
 In this repository, all the models are implemented by [pytorch](https://pytorch.org/).<br><br>
 
 We use the standard data augmentation strategies with [ResNet](https://github.com/pytorch/examples/blob/master/imagenet/main.py).<br><br>
 
-To reproduce our CCD module work, please refer [Usage.md](Usage.md).
-
-## Trained Models
+## ImageNet classification
 
 :blush: `All trained models and training log files are submitted to Google Drive.`
 
@@ -19,18 +20,22 @@ To reproduce our CCD module work, please refer [Usage.md](Usage.md).
 
 <br>
 <br>
-Table 1:  Comparison results of single-crop classification accuracy (%) and complexity on the ImageNet validation set.  The best two performances are marked in **bold**.
+Table 1:  Comparison results of single-crop classification accuracy (%) and complexity on the ImageNet validation set.
 
-| Model | top-1 acc. |top-5 acc. |FLOPs(G)|Parameters(M)|Download|
+| Model | top-1 acc. |top-5 acc. |FLOPs(G)|Parameters(M)|Latency(cpu)|Download|
 | --- | --- |--- |--- |--- |---|
-| ResNet50 | 75.8974 |92.7224|4.122|25.557|<a href="https://drive.google.com/open?id=1DMHhk99fG8rNZjE2wPh8VWZ5qIBOaYOf">model</a> <a href="https://drive.google.com/open?id=1KOM5BzyxQLZl2Aa5KIVOh6HmE7eQvsKa">log</a>|
-| SE-ResNet50 |77.2877  |**93.6478**|4.130|28.088|<a href="https://drive.google.com/open?id=1lOXZv0IskrLLbm_z7JqonR6KaQ7lRpKP">model</a> <a href="https://drive.google.com/open?id=1gl43ufL2Pvum-dZy8B4yAnnV3bl1BSi2">log</a>|
-| GE-ResNet50 |76.2357  |92.9847|**4.127**|**25.557**|<a href="https://drive.google.com/open?id=1N-UVJhZDkoHnxzhE0p_VRsCgGDExi0iA">model</a> <a href="https://drive.google.com/open?id=1KcPMHcDfcgu87TAHqy3ovNN29pIZdkPi">log</a> |
-| CBAM-ResNet50 | 77.2840 |93.6005|4.139|28.090|<a href="https://drive.google.com/open?id=1brCXiQ0LNbqVejQMrY0eVmcwZSGhYFN3">model</a> <a href="https://drive.google.com/open?id=1MVBSKLSu9lyxNKrxH4WoA4fHsE86y45K">log</a> |
-| SK-ResNet50 | **77.3657** |93.5256|4.187|26.154|<a href="https://drive.google.com/open?id=1jwQ-us0G0LSesHGZwmDgjL1W5O7Ekyu6">model</a> <a href="https://drive.google.com/open?id=1DGMM9c1Vfo_YniYTUeL-jfAmsQuwhJYX">log</a> |
-| GC-ResNet50 |74.8966  |92.2812|4.130|28.105|<a href="https://drive.google.com/open?id=1GGe9UzVFjMpoRkQVf3td5BrLeb1ZfwVM">model</a> <a href="https://drive.google.com/open?id=1iE8m0MgK8Ek7ui5UxF8s0w8tZ8XG8dyN">log</a> |
-| CCD-ResNet50 (ours) | **77.3137** |**93.6489**|**4.122**|**25.560**|<a href="https://drive.google.com/open?id=1mHqmrkrWudCk-3DCXL8XWbIjBznOjDLh">model</a>  <a href="https://drive.google.com/open?id=1ZLNEEXAdCUrILmkjZMG_-nYjKYGhS8De">log</a> |
-
+| ResNet18 | 69.6349 |89.0047|1.822|11.690|12ms|<a href="">model</a> <a href="">log</a>|
+| SE-ResNet18 | 71.0236 |89.9159|1.823|11.779|13ms|<a href="">model</a> <a href="">log</a>|
+| GE-ResNet18 | 70.4046 |89.7780|1.825|11.753|16ms|<a href="">model</a> <a href="">log</a>|
+| AC-ResNet18 | 70.7789 |89.6763|1.822|11.690|12ms|<a href="">model</a> <a href="">log</a>|
+| PD-A-ResNet18 | 70.9861 |89.8457|1.822|11.690|12ms|<a href="">model</a> <a href="">log</a>|
+| PD-B-ResNet18 | 72.0873 |90.4177|1.822|11.762|14ms|<a href="">model</a> <a href="">log</a>|
+| ResNet50 | 75.8974|92.7224|4.122|25.557|42ms|<a href="">model</a> <a href="">log</a>|
+| SE-ResNet50 | 77.2877|93.6478|4.130|28.088|45ms|<a href="">model</a> <a href="">log</a>|
+| GE-ResNet50 | 77.1146 |93.7107|4.143|26.06|73ms|<a href="">model</a> <a href="">log</a>|
+| AC-ResNet50 |76.5804|93.1820|4.122|25.557|42ms|<a href="">model</a> <a href="">log</a>|
+| PD-A-ResNet50 | 76.6867|93.3193|4.122|25.557|42ms|<a href="">model</a> <a href="">log</a>|
+| PD-B-ResNet50 |77.3718 |93.4876|4.122|25.636|44ms|<a href="">model</a> <a href="">log</a>|
 
 
 
