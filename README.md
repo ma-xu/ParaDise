@@ -45,7 +45,21 @@ Table:  Comparison results of single-crop classification accuracy (%) and comple
 
 <br>
 <br>
-Table 2: Detection performances (%) with different backbones on the MS-COCO validation dataset. We employ two state-of-the-art detectors: RetinaNet and Cascade R-CNN  in our detection experiments.
+Table: Ablation studies on the branches.
+| Standard1 | Standard2 |Group|Skeleton|PD-A|PD-A|Download|PD-B|PD-B|Download|
+| --- | --- |--- |--- |--- |---|---|---|---|---|
+| Standard1 | Standard2 |Group|Skeleton|top-1|top5|Download|top1|top-5|Download|
+
+
+
+
+
+
+
+
+
+
+
 
 | Detector | Backbone | AP(50:95) | AP(50) | AP(75) | AP(s)|AP(m)|AP(l)|Download
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
