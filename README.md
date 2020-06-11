@@ -48,8 +48,8 @@ Table:  Comparison results of single-crop classification accuracy (%) and comple
 Table: Ablation studies on the branches.
 
 | Standard1 | Standard2 |Group|Skeleton|PD-A|PD-A|PD-A|PD-B|PD-B|PD-B|
-|  |  | | |top-1|top5|Download|top1|top-5|Download|
 | --- | --- |--- |--- |--- |---|---|---|---|---|
+|  |  | | |top-1|top5|Download|top1|top-5|Download|
 |  :heavy_check_mark:| :heavy_check_mark: | | |||<a href="">model</a> <a href="">log</a>|||<a href="">model</a> <a href="">log</a>|
 |  :heavy_check_mark:| |  :heavy_check_mark:| |||<a href="">model</a> <a href="">log</a>|||<a href="">model</a> <a href="">log</a>|
 |  :heavy_check_mark:| |  |:heavy_check_mark: |||<a href="">model</a> <a href="">log</a>|||<a href="">model</a> <a href="">log</a>|
