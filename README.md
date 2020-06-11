@@ -32,30 +32,30 @@ Table:  Comparison results of single-crop classification accuracy (%) and comple
 | SE-ResNet18 | 71.0236 |89.9159|1.823|11.779|13ms|<a href="">model</a> <a href="">log</a>|
 | GE-ResNet18 | 70.4046 |89.7780|1.825|11.753|16ms|<a href="">model</a> <a href="">log</a>|
 | AC-ResNet18 | 70.7789 |89.6763|1.822|11.690|12ms|<a href="">model</a> <a href="">log</a>|
-| PD-A-ResNet18 | 70.9861 |89.8457|1.822|11.690|12ms|<a href="">model</a> <a href="">log</a>|
-| PD-B-ResNet18 | 72.0873 |90.4177|1.822|11.762|14ms|<a href="">model</a> <a href="">log</a>|
+| PD-A-ResNet18 | 70.9861 |89.8457|1.822|11.690|**12ms**|<a href="">model</a> <a href="">log</a>|
+| PD-B-ResNet18 | **72.0873** |**90.4177**|1.822|11.762|**14ms**|<a href="">model</a> <a href="">log</a>|
 | ResNet50 | 75.8974|92.7224|4.122|25.557|42ms|<a href="">model</a> <a href="">log</a>|
 | SE-ResNet50 | 77.2877|93.6478|4.130|28.088|45ms|<a href="">model</a> <a href="">log</a>|
-| GE-ResNet50 | 77.1146 |93.7107|4.143|26.06|73ms|<a href="">model</a> <a href="">log</a>|
+| GE-ResNet50 | 77.1146 |**93.7107**|4.143|26.06|73ms|<a href="">model</a> <a href="">log</a>|
 | AC-ResNet50 |76.5804|93.1820|4.122|25.557|42ms|<a href="">model</a> <a href="">log</a>|
-| PD-A-ResNet50 | 76.6867|93.3193|4.122|25.557|42ms|<a href="">model</a> <a href="">log</a>|
-| PD-B-ResNet50 |77.3718 |93.4876|4.122|25.636|44ms|<a href="">model</a> <a href="">log</a>|
+| PD-A-ResNet50 | 76.6867|93.3193|4.122|25.557|**42ms**|<a href="">model</a> <a href="">log</a>|
+| PD-B-ResNet50 |**77.3718** |93.4876|4.122|25.636|**44ms**|<a href="">model</a> <a href="">log</a>|
 
 
 
 <br>
 <br>
-Table: Ablation studies on the branches.
+Table: Ablation studies of the branches based on ResNet18.
 
 | Standard1 | Standard2 |Group|Skeleton|PD-A|PD-A|PD-A|PD-B|PD-B|PD-B|
 | --- | --- |--- |--- |--- |---|---|---|---|---|
 |  |  | | |top-1|top5|Download|top1|top-5|Download|
-|  :heavy_check_mark:| | | |||<a href="">model</a> <a href="">log</a>|||<a href="">model</a> <a href="">log</a>|
-|  :heavy_check_mark:| :heavy_check_mark: | | |||<a href="">model</a> <a href="">log</a>|||<a href="">model</a> <a href="">log</a>|
-|  :heavy_check_mark:| |  :heavy_check_mark:| |||<a href="">model</a> <a href="">log</a>|||<a href="">model</a> <a href="">log</a>|
-|  :heavy_check_mark:| |  |:heavy_check_mark: |||<a href="">model</a> <a href="">log</a>|||<a href="">model</a> <a href="">log</a>|
-|  :heavy_check_mark:| | :heavy_check_mark: |:heavy_check_mark: |||<a href="">model</a> <a href="">log</a>|||<a href="">model</a> <a href="">log</a>|
-|  :heavy_check_mark:| :heavy_check_mark:| :heavy_check_mark: |:heavy_check_mark: |||<a href="">model</a> <a href="">log</a>|||<a href="">model</a> <a href="">log</a>|
+|  :heavy_check_mark:| | | |69.6349|89.0047|<a href="">model</a> <a href="">log</a>|-|-|-|
+|  :heavy_check_mark:| :heavy_check_mark: | | |70.9881|89.8218|<a href="">model</a> <a href="">log</a>|71.8990|90.3739|<a href="">model</a> <a href="">log</a>|
+|  :heavy_check_mark:| |  :heavy_check_mark:| |70.1830|89.4133|<a href="">model</a> <a href="">log</a>|70.0474|89.3156|<a href="">model</a> <a href="">log</a>|
+|  :heavy_check_mark:| |  |:heavy_check_mark: |70.7789|89.6763|<a href="">model</a> <a href="">log</a>|71.9872|90.4157|<a href="">model</a> <a href="">log</a>|
+|  :heavy_check_mark:| | :heavy_check_mark: |:heavy_check_mark: |**71.1799**|89.8278|<a href="">model</a> <a href="">log</a>|71.8232|90.2524|<a href="">model</a> <a href="">log</a>|
+|  :heavy_check_mark:| :heavy_check_mark:| :heavy_check_mark: |:heavy_check_mark: |70.9861|**89.8457**|<a href="">model</a> <a href="">log</a>|**72.0873**|**90.4177**|<a href="">model</a> <a href="">log</a>|
 
 
 
