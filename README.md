@@ -43,14 +43,14 @@ Table:  Comparison results of single-crop classification accuracy (%) and comple
 | SE-ResNet18 | 71.0236 |89.9159|1.823|11.779|13ms|<a href="https://drive.google.com/file/d/1s7ZB0MgzdVnyv2kc5NJIoJVbT1B7SazB/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1meCrTVMJuUXDJQkAO0B0Az1yJUHjBtNZ/view?usp=sharing">log</a>|
 | GE-ResNet18 | 70.4046 |89.7780|1.825|11.753|16ms|<a href="https://drive.google.com/file/d/1jlomXQxhhjpi4QI155mE8Hz3-CqutzHU/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/11NP3mKovpX-_LtUsS2M4tBljhFjFeJ_d/view?usp=sharing">log</a>|
 | AC-ResNet18 | 70.7789 |89.6763|1.822|11.690|12ms|<a href="https://drive.google.com/file/d/1jt51PEjJ9dGeL5EnOchvPvPR54qPCR4k/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1T2aE1IcTHzYyMMH2aeDYALda_O2PLqrG/view?usp=sharing">log</a>|
-| PD-A-ResNet18 | 70.9861 |89.8457|1.822|11.690|**12ms**|<a href="">model</a> <a href="">log</a>|
+| PD-A-ResNet18 | 70.9861 |89.8457|1.822|11.690|**12ms**|<a href="https://drive.google.com/file/d/16-M4v6ZBxd-ljRAnfLYg9OhF_1zcjD6N/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1ZZApggNvq1DdxtQAoiVsopPx5SGugl8x/view?usp=sharing">log</a>|
 | PD-B-ResNet18 | **72.0873** |**90.4177**|1.822|11.762|**14ms**|<a href="https://drive.google.com/file/d/1FwT3yCRQY7LSHRUrI5jeb2wIP2blvcf5/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1FwT3yCRQY7LSHRUrI5jeb2wIP2blvcf5/view?usp=sharing">log</a>|
 | ResNet50 | 75.8974|92.7224|4.122|25.557|42ms|<a href="https://drive.google.com/open?id=1DMHhk99fG8rNZjE2wPh8VWZ5qIBOaYOf">model</a> <a href="https://drive.google.com/open?id=1KOM5BzyxQLZl2Aa5KIVOh6HmE7eQvsKa">log</a>|
 | SE-ResNet50 | 77.2877|93.6478|4.130|28.088|45ms|<a href="https://drive.google.com/open?id=1lOXZv0IskrLLbm_z7JqonR6KaQ7lRpKP">model</a> <a href="https://drive.google.com/open?id=1gl43ufL2Pvum-dZy8B4yAnnV3bl1BSi2">log</a>|
-| GE-ResNet50 | 77.1146 |**93.7107**|4.143|26.06|73ms|<a href="">model</a> <a href="">log</a>|
-| AC-ResNet50 |76.5804|93.1820|4.122|25.557|42ms|<a href="">model</a> <a href="">log</a>|
-| PD-A-ResNet50 | 76.6867|93.3193|4.122|25.557|**42ms**|<a href="">model</a> <a href="">log</a>|
-| PD-B-ResNet50 |**77.3718** |93.4876|4.122|25.636|**44ms**|<a href="">model</a> <a href="">log</a>|
+| GE-ResNet50 | 77.1146 |**93.7107**|4.143|26.06|73ms|<a href="https://drive.google.com/file/d/1qTv5lWFY6E18h1c3hqWkNAs0n_Djri58/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1f4OSR2qiBp8dFvUB8fYWDG4hOqPPXG8A/view?usp=sharing">log</a>|
+| AC-ResNet50 |76.5804|93.1820|4.122|25.557|42ms|<a href="https://drive.google.com/file/d/15leIDi9UX3NJBNlXbp3_S5Z_RGmvQT-O/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1_58yZxi1JSy_jb-L9iXdTnI5z6nUeEax/view?usp=sharing">log</a>|
+| PD-A-ResNet50 | 76.6867|93.3193|4.122|25.557|**42ms**|<a href="https://drive.google.com/file/d/1IruxbflXSGyAw4JLxz4hDg-LU7H1F77H/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1gxgUoQF7NKVawiobVATb45d5t-fgASBc/view?usp=sharing">log</a>|
+| PD-B-ResNet50 |**77.3718** |93.4876|4.122|25.636|**44ms**|<a href="https://drive.google.com/file/d/1FYP-VVd8YUm2nl6EmO5s3sbdKMOA4C7o/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1WOkS96O8RGE3MeYkw5K_e0Znaym8Dt_n/view?usp=sharing">log</a>|
 
 
 
@@ -62,11 +62,11 @@ Table: Ablation studies of the branches based on ResNet18.
 | --- | --- |--- |--- |--- |---|---|---|---|---|
 |  |  | | |top-1|top5|Download|top1|top-5|Download|
 |  :heavy_check_mark:| | | |69.6349|89.0047|<a href="https://drive.google.com/file/d/1iUG2qiTIlUoyu3oBnABD5izG82GF2u7v/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1FwT3yCRQY7LSHRUrI5jeb2wIP2blvcf5/view?usp=sharing">log</a>|-|-|-|
-|  :heavy_check_mark:| :heavy_check_mark: | | |70.9881|89.8218|<a href="">model</a> <a href="">log</a>|71.8990|90.3739|<a href="">model</a> <a href="">log</a>|
+|  :heavy_check_mark:| :heavy_check_mark: | | |70.9881|89.8218|<a href="">model</a> <a href="">log</a>|71.8990|90.3739|<a href="https://drive.google.com/file/d/1vRxUX1RlR1f_gIrplM3DUDkMVNWwpFG8/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1YeVNGNu0XgF_xicLm3jRXBFtrB-syy0J/view?usp=sharing">log</a>|
 |  :heavy_check_mark:| |  :heavy_check_mark:| |70.1830|89.4133|<a href="https://drive.google.com/file/d/1P3EG5JrDPopwPL8gJBuKTeI6sPPDgiNR/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1BJ_679pixGYqhIY8BqhfRXfH30mn1K26/view?usp=sharing">log</a>|70.0474|89.3156|<a href="https://drive.google.com/file/d/1eKFb_m2QOPwCcl6xVPXTWA1VxyX1sLuq/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1eLuMb2njrZMZKodcxnKMQDG8zESUhyYx/view?usp=sharing">log</a>|
 |  :heavy_check_mark:| |  |:heavy_check_mark: |70.7789|89.6763|<a href="https://drive.google.com/file/d/1jt51PEjJ9dGeL5EnOchvPvPR54qPCR4k/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1T2aE1IcTHzYyMMH2aeDYALda_O2PLqrG/view?usp=sharing">log</a>|71.9872|90.4157|<a href="https://drive.google.com/file/d/1g85N_O07rTx7XrgjRy0d6a1eUCnODXM5/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/12q_E3-5gxEhxH5AeCuvvps_nbFig09ov/view?usp=sharing">log</a>|
 |  :heavy_check_mark:| | :heavy_check_mark: |:heavy_check_mark: |**71.1799**|89.8278|<a href="https://drive.google.com/file/d/1Lq4L7pEECvAQ01cUKsNJesxZCqaKWm6l/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1Uwu8YE07HjCduQHhCoCkhKQL1lKPMEvS/view?usp=sharing">log</a>|71.8232|90.2524|<a href="https://drive.google.com/file/d/1ttcdCrLufLQDkqmQiwOSjaDucSqSTBWD/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1Evqh9GbZbbfaXKaArG_SVpgS-whBhW0n/view?usp=sharing">log</a>|
-|  :heavy_check_mark:| :heavy_check_mark:| :heavy_check_mark: |:heavy_check_mark: |70.9861|**89.8457**|<a href="">model</a> <a href="">log</a>|**72.0873**|**90.4177**|<a href="">model</a> <a href="">log</a>|
+|  :heavy_check_mark:| :heavy_check_mark:| :heavy_check_mark: |:heavy_check_mark: |70.9861|**89.8457**|<a href="https://drive.google.com/file/d/16-M4v6ZBxd-ljRAnfLYg9OhF_1zcjD6N/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1ZZApggNvq1DdxtQAoiVsopPx5SGugl8x/view?usp=sharing">log</a>|**72.0873**|**90.4177**|<a href="https://drive.google.com/file/d/1FwT3yCRQY7LSHRUrI5jeb2wIP2blvcf5/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1FwT3yCRQY7LSHRUrI5jeb2wIP2blvcf5/view?usp=sharing">log</a>|
 
 
 
