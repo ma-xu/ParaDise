@@ -60,19 +60,21 @@ Table: Ablation studies of the branches based on ResNet18.
 
 
 
+## Object Detection on MS COCO benchmark
+We employ the [mmdetection](https://github.com/open-mmlab/mmdetection) framework for our object detection task. The only required operations is replace the backbone to our ParDise variants.
 
+# TODO:
+- applying ParaDise to detectors, not only the backbone models.
 
-
-
-
-
-
+Table: Detection performance on MS COCO benchmark.
 
 | Detector | Backbone | AP(50:95) | AP(50) | AP(75) | AP(s)|AP(m)|AP(l)|Download
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |Retina|ResNet50|36.2|55.9|38.5|19.4|39.8|48.3|[model](https://drive.google.com/open?id=1imZvUrwg6Vy6TFRLAsL62FsF-DyizZXR) [log](https://drive.google.com/open?id=14rRmHai_9ghL5oC-1DTTiLrt4w_HY0Yl)
-|Retina|SE-ResNet50|37.4|57.8|39.8|20.6|40.8|50.3|[model](https://drive.google.com/open?id=1ivzPfC_JhpO7DPs6vzlHGxkZBf2sC60p) [log](https://drive.google.com/open?id=1mKctgPjf9QbEXTeSm_-J_kqeiVNGuMT7)
-|Retina|CCD-ResNet50|**37.8**|**58.5**|**40.1**|**21.6**|**41.5**|**50.9**|[model](https://drive.google.com/open?id=1StYpULhwgCwG_ZacBR1bRFqbgt6FRHZr) [log](https://drive.google.com/open?id=1ADWdGj2NcuiK2SCExfWKM8ovypBC68FL)
+|Retina|PD-A-ResNet50|36.8|56.9|39.3|20.2|40.7|49.4|[model]() [log]()
+|Retina|PD-B-ResNet50|37.9|58.6|40.1|21.3|40.8|50.7|[model]() [log]()
+
 Cascade R-CNN|ResNet50|40.6|58.9|44.2|22.4|43.7|54.7|[model](https://drive.google.com/open?id=1jGUT2KsFggLSJMkH0cgJUJV_p_cSM-7f) [log](https://drive.google.com/open?id=13g-4XlMlySVUJyrvWeU5FVCA--cojaCk)
-Cascade R-CNN|GC-ResNet50|41.1|59.7|44.6|23.6|44.1|54.3|[model](https://drive.google.com/open?id=19cv3TReITDMJuvmAleGzzt3H39iq3pYl) [log](https://drive.google.com/open?id=1uCcKukd4HKtxIc1uUfKydd-_NIPnj9_i)
-Cascade R-CNN|CCD-ResNet50|**42.5**|**61.1**|**46.4**|**24.7**|**45.9**|**56.5**|[model](https://drive.google.com/open?id=1655frDSIzUpxjOD4Bt2-l6w0D5DBo2Yn) [log](https://drive.google.com/open?id=1655frDSIzUpxjOD4Bt2-l6w0D5DBo2Yn)
+Cascade R-CNN|PD-A-ResNet50|41.7|60.4|45.3|23.7|44.5|55.3|[model]() [log]()
+Cascade R-CNN|PD-B-ResNet50|42.1|61.0|45.7|24.3|45.3 |55.5|[model]() [log]()
+
