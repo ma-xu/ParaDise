@@ -21,6 +21,17 @@ We use the standard data augmentation strategies with [ResNet](https://github.co
 
 :blush: `We provide corresponding links in the "download"  column.`
 
+You can use the following commands to test a dataset.
+
+```shell
+git clone ParaDise
+cd ParaDise
+# change 8 to your GPU number, '--fp16' indicates half precision for fast training. '--b' batch size.
+# for more configures, see imagenet.py.
+python3 -m torch.distributed.launch --nproc_per_node=8 imagenet.py -a pd_a_resnet18 --fp16 --b 32
+```
+
+
 ## ImageNet classification
 <br>
 <br>
