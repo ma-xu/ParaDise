@@ -63,8 +63,7 @@ Table: Ablation studies of the branches based on ResNet18.
 ## Object Detection on MS COCO benchmark
 We employ the [mmdetection](https://github.com/open-mmlab/mmdetection) framework for our object detection task. The only required operations is replace the backbone to our ParDise variants.
 
-# TODO:
-- applying ParaDise to detectors, not only the backbone models.
+- **TO DO:** applying ParaDise to detectors, not only the backbone models.
 
 Table: Detection performance on MS COCO benchmark.
 
