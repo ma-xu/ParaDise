@@ -45,8 +45,8 @@ Table:  Comparison results of single-crop classification accuracy (%) and comple
 | AC-ResNet18 | 70.7789 |89.6763|1.822|11.690|12ms|<a href="https://drive.google.com/file/d/1jt51PEjJ9dGeL5EnOchvPvPR54qPCR4k/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1T2aE1IcTHzYyMMH2aeDYALda_O2PLqrG/view?usp=sharing">log</a>|
 | PD-A-ResNet18 | 70.9861 |89.8457|1.822|11.690|**12ms**|<a href="">model</a> <a href="">log</a>|
 | PD-B-ResNet18 | **72.0873** |**90.4177**|1.822|11.762|**14ms**|<a href="https://drive.google.com/file/d/1FwT3yCRQY7LSHRUrI5jeb2wIP2blvcf5/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1FwT3yCRQY7LSHRUrI5jeb2wIP2blvcf5/view?usp=sharing">log</a>|
-| ResNet50 | 75.8974|92.7224|4.122|25.557|42ms|<a href="">model</a> <a href="">log</a>|
-| SE-ResNet50 | 77.2877|93.6478|4.130|28.088|45ms|<a href="">model</a> <a href="">log</a>|
+| ResNet50 | 75.8974|92.7224|4.122|25.557|42ms|<a href="https://drive.google.com/open?id=1DMHhk99fG8rNZjE2wPh8VWZ5qIBOaYOf">model</a> <a href="https://drive.google.com/open?id=1KOM5BzyxQLZl2Aa5KIVOh6HmE7eQvsKa">log</a>|
+| SE-ResNet50 | 77.2877|93.6478|4.130|28.088|45ms|<a href="https://drive.google.com/open?id=1lOXZv0IskrLLbm_z7JqonR6KaQ7lRpKP">model</a> <a href="https://drive.google.com/open?id=1gl43ufL2Pvum-dZy8B4yAnnV3bl1BSi2">log</a>|
 | GE-ResNet50 | 77.1146 |**93.7107**|4.143|26.06|73ms|<a href="">model</a> <a href="">log</a>|
 | AC-ResNet50 |76.5804|93.1820|4.122|25.557|42ms|<a href="">model</a> <a href="">log</a>|
 | PD-A-ResNet50 | 76.6867|93.3193|4.122|25.557|**42ms**|<a href="">model</a> <a href="">log</a>|
