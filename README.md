@@ -12,12 +12,11 @@ In this repository, all the models are implemented by [pytorch](https://pytorch.
 
 We use the standard data augmentation strategies with [ResNet](https://github.com/pytorch/examples/blob/master/imagenet/main.py).<br>
 
-## ImageNet classification
-
 :blush: `All trained models and training log files are submitted to Google Drive.`
 
 :blush: `We provide corresponding links in the "download"  column.`
 
+## ImageNet classification
 <br>
 <br>
 Table:  Comparison results of single-crop classification accuracy (%) and complexity on the ImageNet validation set.
