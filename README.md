@@ -73,7 +73,6 @@ Table: Detection performance on MS COCO benchmark.
 |Retina|ResNet50|36.2|55.9|38.5|19.4|39.8|48.3|[model](https://drive.google.com/open?id=1imZvUrwg6Vy6TFRLAsL62FsF-DyizZXR) [log](https://drive.google.com/open?id=14rRmHai_9ghL5oC-1DTTiLrt4w_HY0Yl)
 |Retina|PD-A-ResNet50|36.8|56.9|39.3|20.2|40.7|49.4|[model]() [log]()
 |Retina|PD-B-ResNet50|37.9|58.6|40.1|21.3|40.8|50.7|[model]() [log]()
-
 Cascade R-CNN|ResNet50|40.6|58.9|44.2|22.4|43.7|54.7|[model](https://drive.google.com/open?id=1jGUT2KsFggLSJMkH0cgJUJV_p_cSM-7f) [log](https://drive.google.com/open?id=13g-4XlMlySVUJyrvWeU5FVCA--cojaCk)
 Cascade R-CNN|PD-A-ResNet50|41.7|60.4|45.3|23.7|44.5|55.3|[model]() [log]()
 Cascade R-CNN|PD-B-ResNet50|42.1|61.0|45.7|24.3|45.3 |55.5|[model]() [log]()
