@@ -39,12 +39,12 @@ Table:  Comparison results of single-crop classification accuracy (%) and comple
 
 | Model | top-1 acc. |top-5 acc. |FLOPs(G)|Parameters(M)|Latency(cpu)|Download|
 | --- | --- |--- |--- |--- |---|---|
-| ResNet18 | 69.6349 |89.0047|1.822|11.690|12ms|<a href="">model</a> <a href="">log</a>|
-| SE-ResNet18 | 71.0236 |89.9159|1.823|11.779|13ms|<a href="">model</a> <a href="">log</a>|
-| GE-ResNet18 | 70.4046 |89.7780|1.825|11.753|16ms|<a href="">model</a> <a href="">log</a>|
-| AC-ResNet18 | 70.7789 |89.6763|1.822|11.690|12ms|<a href="">model</a> <a href="">log</a>|
+| ResNet18 | 69.6349 |89.0047|1.822|11.690|12ms|<a href="https://drive.google.com/file/d/1iUG2qiTIlUoyu3oBnABD5izG82GF2u7v/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1FwT3yCRQY7LSHRUrI5jeb2wIP2blvcf5/view?usp=sharing">log</a>|
+| SE-ResNet18 | 71.0236 |89.9159|1.823|11.779|13ms|<a href="https://drive.google.com/file/d/1s7ZB0MgzdVnyv2kc5NJIoJVbT1B7SazB/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1meCrTVMJuUXDJQkAO0B0Az1yJUHjBtNZ/view?usp=sharing">log</a>|
+| GE-ResNet18 | 70.4046 |89.7780|1.825|11.753|16ms|<a href="https://drive.google.com/file/d/1jlomXQxhhjpi4QI155mE8Hz3-CqutzHU/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/11NP3mKovpX-_LtUsS2M4tBljhFjFeJ_d/view?usp=sharing">log</a>|
+| AC-ResNet18 | 70.7789 |89.6763|1.822|11.690|12ms|<a href="https://drive.google.com/file/d/1jt51PEjJ9dGeL5EnOchvPvPR54qPCR4k/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1T2aE1IcTHzYyMMH2aeDYALda_O2PLqrG/view?usp=sharing">log</a>|
 | PD-A-ResNet18 | 70.9861 |89.8457|1.822|11.690|**12ms**|<a href="">model</a> <a href="">log</a>|
-| PD-B-ResNet18 | **72.0873** |**90.4177**|1.822|11.762|**14ms**|<a href="">model</a> <a href="">log</a>|
+| PD-B-ResNet18 | **72.0873** |**90.4177**|1.822|11.762|**14ms**|<a href="https://drive.google.com/file/d/1FwT3yCRQY7LSHRUrI5jeb2wIP2blvcf5/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1FwT3yCRQY7LSHRUrI5jeb2wIP2blvcf5/view?usp=sharing">log</a>|
 | ResNet50 | 75.8974|92.7224|4.122|25.557|42ms|<a href="">model</a> <a href="">log</a>|
 | SE-ResNet50 | 77.2877|93.6478|4.130|28.088|45ms|<a href="">model</a> <a href="">log</a>|
 | GE-ResNet50 | 77.1146 |**93.7107**|4.143|26.06|73ms|<a href="">model</a> <a href="">log</a>|
@@ -63,7 +63,7 @@ Table: Ablation studies of the branches based on ResNet18.
 |  |  | | |top-1|top5|Download|top1|top-5|Download|
 |  :heavy_check_mark:| | | |69.6349|89.0047|<a href="">model</a> <a href="">log</a>|-|-|-|
 |  :heavy_check_mark:| :heavy_check_mark: | | |70.9881|89.8218|<a href="">model</a> <a href="">log</a>|71.8990|90.3739|<a href="">model</a> <a href="">log</a>|
-|  :heavy_check_mark:| |  :heavy_check_mark:| |70.1830|89.4133|<a href="">model</a> <a href="">log</a>|70.0474|89.3156|<a href="">model</a> <a href="">log</a>|
+|  :heavy_check_mark:| |  :heavy_check_mark:| |70.1830|89.4133|<a href="https://drive.google.com/file/d/1P3EG5JrDPopwPL8gJBuKTeI6sPPDgiNR/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1BJ_679pixGYqhIY8BqhfRXfH30mn1K26/view?usp=sharing">log</a>|70.0474|89.3156|<a href="https://drive.google.com/file/d/1eKFb_m2QOPwCcl6xVPXTWA1VxyX1sLuq/view?usp=sharing">model</a> <a href="https://drive.google.com/file/d/1eLuMb2njrZMZKodcxnKMQDG8zESUhyYx/view?usp=sharing">log</a>|
 |  :heavy_check_mark:| |  |:heavy_check_mark: |70.7789|89.6763|<a href="">model</a> <a href="">log</a>|71.9872|90.4157|<a href="">model</a> <a href="">log</a>|
 |  :heavy_check_mark:| | :heavy_check_mark: |:heavy_check_mark: |**71.1799**|89.8278|<a href="">model</a> <a href="">log</a>|71.8232|90.2524|<a href="">model</a> <a href="">log</a>|
 |  :heavy_check_mark:| :heavy_check_mark:| :heavy_check_mark: |:heavy_check_mark: |70.9861|**89.8457**|<a href="">model</a> <a href="">log</a>|**72.0873**|**90.4177**|<a href="">model</a> <a href="">log</a>|
