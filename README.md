@@ -23,7 +23,7 @@ We use the standard data augmentation strategies with [ResNet](https://github.co
 Table 1:  Comparison results of single-crop classification accuracy (%) and complexity on the ImageNet validation set.
 
 | Model | top-1 acc. |top-5 acc. |FLOPs(G)|Parameters(M)|Latency(cpu)|Download|
-| --- | --- |--- |--- |--- |---|
+| --- | --- |--- |--- |--- |---|---|
 | ResNet18 | 69.6349 |89.0047|1.822|11.690|12ms|<a href="">model</a> <a href="">log</a>|
 | SE-ResNet18 | 71.0236 |89.9159|1.823|11.779|13ms|<a href="">model</a> <a href="">log</a>|
 | GE-ResNet18 | 70.4046 |89.7780|1.825|11.753|16ms|<a href="">model</a> <a href="">log</a>|
