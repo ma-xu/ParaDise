@@ -76,3 +76,7 @@ Cascade R-CNN|ResNet50|40.6|58.9|44.2|22.4|43.7|54.7|[model](https://drive.googl
 Cascade R-CNN|PD-A-ResNet50|41.7|60.4|45.3|23.7|44.5|55.3|[model]() [log]()
 Cascade R-CNN|PD-B-ResNet50|42.1|61.0|45.7|24.3|45.3 |55.5|[model]() [log]()
 
+## Other visual tasks
+
+We argure that our ParaDise is suitable for other visual tasks, like **segmentation**, **keypoints detection**, etc. More expriments on other tasks are ongoing. 
+
