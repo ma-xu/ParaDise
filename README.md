@@ -3,9 +3,9 @@
 <br><br>
 
 ## Requirements
-PyTorch>=1.3.0
-NVIDIA/Apex
-NVIDIADALI
+PyTorch>=1.3.0<br>
+NVIDIA/Apex<br>
+NVIDIADALI<br>
 
 ## Implementation
 In this repository, all the models are implemented by [pytorch](https://pytorch.org/).<br><br>
