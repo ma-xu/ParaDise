@@ -8,9 +8,9 @@ NVIDIA/Apex<br>
 NVIDIADALI<br>
 
 ## Implementation
-In this repository, all the models are implemented by [pytorch](https://pytorch.org/).<br><br>
+In this repository, all the models are implemented by [pytorch](https://pytorch.org/).<br>
 
-We use the standard data augmentation strategies with [ResNet](https://github.com/pytorch/examples/blob/master/imagenet/main.py).<br><br>
+We use the standard data augmentation strategies with [ResNet](https://github.com/pytorch/examples/blob/master/imagenet/main.py).<br>
 
 ## ImageNet classification
 
