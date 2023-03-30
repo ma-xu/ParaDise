@@ -1,5 +1,4 @@
 # ParaDise: Parameter Disentanglement for Neural Networks
-In submission
 <br><br>
 
 ## Requirements
